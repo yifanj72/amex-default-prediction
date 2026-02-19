@@ -14,7 +14,17 @@ Predict the probability that a customer will default on their credit card paymen
 
 ## Dataset
 
-[Add dataset description here]
+The dataset is from the [American Express Default Prediction competition on Kaggle](https://www.kaggle.com/competitions/amex-default-prediction).
+
+**Data Location:** `data/external/`
+
+**Files:**
+- `train.parquet` (1.5GB) - Training data with integer dtypes (post-processed)
+- `test.parquet` (3.1GB) - Test data with integer dtypes (post-processed)
+
+**Data Format:** Parquet files with integer dtypes (post-processed from original competition data where float to int type conversions were done)
+
+**Note:** The data files are stored in the `data/external/` directory and are not tracked by git due to their large size.
 
 ## Methodology
 
